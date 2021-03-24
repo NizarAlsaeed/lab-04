@@ -1,0 +1,94 @@
+
+#a{
+    background-color: green;
+}
+#b{
+    background-color: indianred;
+}
+#c{
+    background-color: indigo;
+}
+#d{
+    background-color: lightblue;
+}
+#e{
+    background-color: midnightblue;
+}
+#f{
+    background-color: orange;
+}
+#g{
+    background-color:yellowgreen;
+}
+#h{
+    background-color: darkred;
+}
+#i{
+    background-color: deepskyblue;
+}
+
+@media only screen and (min-width:768px) and (max-width: 999px) {
+
+    
+    #a{
+        background-color: rgba(0, 128, 0, 0.541);
+    }
+    #b{
+        background-color: rgba(205, 92, 92, 0.514);
+    }
+    #c{
+        background-color: rgba(76, 0, 130, 0.507);
+    }
+    #d{
+        background-color: rgba(40, 52, 56, 0.493);
+    }
+    #e{
+        background-color: rgba(25, 25, 112, 0.507);
+    }
+    #f{
+        background-color: rgba(255, 166, 0, 0.5);
+    }
+    #g{
+        background-color:rgba(153, 205, 50, 0.521);
+    }
+    #h{
+        background-color: rgba(139, 0, 0, 0.493);
+    }
+    #i{
+        background-color: rgba(0, 191, 255, 0.363);
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    #a{
+        background-color: rgba(156, 1, 1, 0.89);
+    }
+    #b{
+        background-color: rgba(92, 205, 135, 0.808);
+    }
+    #c{
+        background-color: rgba(76, 0, 130, 0.808);
+    }
+    #d{
+        background-color: rgba(138, 34, 107, 0.801);
+    }
+    #e{
+        background-color: rgba(82, 112, 25, 0.788);
+    }
+    #f{
+        background-color: rgba(155, 108, 22, 0.795);
+    }
+    #g{
+        background-color:rgba(110, 9, 9, 0.815);
+    }
+    #h{
+        background-color: rgba(104, 36, 9, 0.753);
+    }
+    #i{
+        background-color: rgba(255, 251, 0, 0.904);
+    }
+
+}
